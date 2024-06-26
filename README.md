@@ -5,7 +5,7 @@ java project dependencies management
 ```xml
 <properties>
     <spring-cloud-starter.version>2023.0.2</spring-cloud-starter.version>
-    <spring-cloud-azure.version>5.8</spring-cloud-azure.version>
+    <!--    <spring-cloud-azure.version>5.8</spring-cloud-azure.version>-->
     <spring-cloud-alibaba.version>2021.0.4.0</spring-cloud-alibaba.version>
 
     <mybatis-plus.version>3.5.6</mybatis-plus.version>
@@ -18,10 +18,14 @@ java project dependencies management
     <commons-collections.version>4.4</commons-collections.version>
     <common-lang3.version>3.14.0</common-lang3.version>
     <commons-io.version>2.16.1</commons-io.version>
+
+    <!-- critical frameworks -->
+    <aeron.version>1.44.1</aeron.version>
+    <disruptor.version>4.0.0</disruptor.version>
 </properties>
 ```
 
 ## references
 
-- [mvnrepository](https://mvnrepository.com/)
+- [mvn repository](https://mvnrepository.com/)
 - [spring project management](https://github.com/spring-projects/spring-boot/blob/2.0.x/spring-boot-project/spring-boot-parent/pom.xml)
